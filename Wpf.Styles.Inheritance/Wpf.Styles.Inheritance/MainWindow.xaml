@@ -20,18 +20,6 @@
         </Style>
         <Style x:Key="declineButtonStyle" BasedOn="{StaticResource acceptButtonStyle}" TargetType="{x:Type Button}">
             <Setter Property="Background" Value="Red"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Foreground" Value="Black"/>
-                    <Setter Property="FontSize" Value="18"/>
-                </Trigger>
-                <Trigger Property="IsFocused" Value="True">
-                    <Setter Property="BorderThickness" Value="3"/>
-                </Trigger>
-                <Trigger Property="IsPressed" Value="True">
-                    <Setter Property="FontWeight" Value="Bold"/>
-                </Trigger>
-            </Style.Triggers>
         </Style>
     </Window.Resources>
     <Grid Margin="5">
