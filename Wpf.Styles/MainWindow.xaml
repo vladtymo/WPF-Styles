@@ -9,7 +9,7 @@
         Style="{StaticResource windowStyle}">
     <Window.Resources>
         <Style x:Key="darkButtonStyle" TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="#FF333333"/>
+            <Setter Property="Background" Value="#FF242D5B"/>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="FontSize" Value="20"></Setter>
             <Setter Property="Foreground" Value="#FFCCCCCC"/>
