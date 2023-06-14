@@ -9,14 +9,14 @@
     <Window.Resources>
         <!--Default Style for Buttons-->
         <Style TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="Lime"/>
+            <Setter Property="Background" Value="DarkGreen"/>
             <Setter Property="Padding" Value="10"/>
-            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="Foreground" Value="LightBlue"/>
         </Style>
         <Style x:Key="specialButtonStyle" TargetType="{x:Type Button}">
             <Setter Property="Background" Value="Aqua"/>
-            <Setter Property="FontStyle" Value="Italic"/>
-            <Setter Property="BorderThickness" Value="10"></Setter>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="BorderThickness" Value="5"></Setter>
         </Style>
     </Window.Resources>
     <Grid Margin="5">
@@ -43,7 +43,7 @@
             !!  scecial style
             !!! attribute
         -->
-        <Button Grid.Row="8" Background="Yellow" Style="{StaticResource specialButtonStyle}">Button 3</Button>
-        <Button Grid.Row="19" Background="Orange">Test Button</Button>
+        <Button Grid.Row="8" Background="DarkOrange" Style="{StaticResource specialButtonStyle}">Button 3</Button>
+        <Button Grid.Row="19" Background="DarkCyan">Test Button</Button>
     </Grid>
 </Window>

@@ -16,6 +16,7 @@
             <Setter Property="Padding" Value="10"/>
             <Setter Property="Typography.Capitals" Value="SmallCaps"/>
             <Style.Triggers>
+                <!-- Property Triggers -->
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="FontSize" Value="18"/>
                 </Trigger>
