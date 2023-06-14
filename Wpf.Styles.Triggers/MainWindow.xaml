@@ -15,6 +15,7 @@
             <Setter Property="FontWeight" Value="Light"/>
             <Setter Property="Padding" Value="10"/>
             <Setter Property="Typography.Capitals" Value="SmallCaps"/>
+            
             <Style.Triggers>
                 <!-- Property Triggers -->
                 <Trigger Property="IsMouseOver" Value="True">
@@ -25,6 +26,18 @@
                 </Trigger> 
                 <Trigger Property="IsPressed" Value="True">
                     <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Background" Value="LightBlue"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            <Style.Triggers>
+                <Trigger Property="Text" Value="Ukraine">
+                    <Setter Property="Background" Value="DarkBlue"/>
+                    <Setter Property="Foreground" Value="Yellow"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -39,11 +52,17 @@
             <RowDefinition/>
             <RowDefinition Height="5"/>
             <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         
         <Button Style="{StaticResource myStyle}" Grid.Row="0" Grid.Column="0">Common Button</Button>
         <Button Style="{StaticResource myStyle}" Grid.Row="0" Grid.Column="2">Common Button</Button>
         <Button Style="{StaticResource myStyle}" Grid.Row="2" Grid.Column="0">Common Button</Button>
         <Button Style="{StaticResource myStyle}" Grid.Row="2" Grid.Column="2">Common Button</Button>
+
+        <TextBox Grid.Row="4" Grid.ColumnSpan="3">
+            
+        </TextBox>
     </Grid>
 </Window>

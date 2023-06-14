@@ -38,9 +38,9 @@
         
         <Button Grid.Row="0" Grid.Column="0">Common Button</Button>
         <Button Grid.Row="0" Grid.Column="2">Common Button</Button>
-        <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource declineButtonStyle}">Decline Button</Button>
-        <Button Grid.Row="4" Grid.Column="0" Style="{StaticResource declineButtonStyle}">Decline Button</Button>
+        <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource declineButtonStyle}">Remove Button</Button>
+        <Button Grid.Row="4" Grid.Column="0" Style="{StaticResource declineButtonStyle}">Cancel Button</Button>
         <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource acceptButtonStyle}">Accept Button</Button>
-        <Button Grid.Row="4" Grid.Column="2" Style="{StaticResource acceptButtonStyle}">Accept Button</Button>
+        <Button Grid.Row="4" Grid.Column="2" Style="{StaticResource acceptButtonStyle}">OK Button</Button>
     </Grid>
 </Window>
