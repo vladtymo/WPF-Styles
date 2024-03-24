@@ -61,8 +61,6 @@
         <Button Style="{StaticResource myStyle}" Grid.Row="2" Grid.Column="0">Common Button</Button>
         <Button Style="{StaticResource myStyle}" Grid.Row="2" Grid.Column="2">Common Button</Button>
 
-        <TextBox Grid.Row="4" Grid.ColumnSpan="3">
-            
-        </TextBox>
+        <TextBox Grid.Row="4" Grid.ColumnSpan="3"></TextBox>
     </Grid>
 </Window>
